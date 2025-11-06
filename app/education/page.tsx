@@ -61,18 +61,6 @@ export default function EducationPage() {
 												{edu.startDate} - {edu.endDate}
 											</div>
 										</div>
-
-										<div className="mt-6">
-											<h3 className="text-lg font-semibold mb-3">Achievements</h3>
-											<ul className="space-y-2">
-												{edu.achievements.map((achievement, i) => (
-													<li key={i} className="flex items-start">
-														<Award className="h-5 w-5 mr-2 text-primary shrink-0 mt-0.5" />
-														<span className="text-muted-foreground">{achievement}</span>
-													</li>
-												))}
-											</ul>
-										</div>
 									</CardContent>
 								</Card>
 							</motion.div>

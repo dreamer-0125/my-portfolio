@@ -28,14 +28,6 @@ export const siteConfig = {
 			href: '/projects',
 		},
 		{
-			title: 'Certificates',
-			href: '/certificates',
-		},
-		{
-			title: 'Blog',
-			href: '/blog',
-		},
-		{
 			title: 'Contact',
 			href: '/contact',
 		},
@@ -64,30 +56,32 @@ export type Experience = {
 
 export const experiences: Experience[] = [
 	{
-		title: 'Engineering Intern',
-		company: 'Tech Company',
-		location: 'City, Country',
-		startDate: 'May 2023',
-		endDate: 'Aug 2023',
+		title: 'Junior Web & Blockchain Developer',
+		company: 'Freelance / Remote',
+		location: 'California , USA',
+		startDate: '2022',
+		endDate: 'Present',
 		description: [
-			'Worked on developing and testing software components for embedded systems',
-			'Collaborated with senior engineers on project planning and execution',
-			'Implemented test procedures for quality assurance',
+			'Designed and built small-scale web and mobile apps using React.js, Node.js, and React Native',
+			'Created and tested Ethereum smart contracts for personal DApp projects using Solidity and Hardhat',
+			'Integrated wallet connectivity (MetaMask & WalletConnect) into simple blockchain applications',
+			'Collaborated with other developers online in open-source blockchain and front-end projects',
 		],
 		technologies: ['C++', 'Python', 'MATLAB', 'Git'],
 	},
 	{
-		title: 'Research Assistant',
-		company: 'University Lab',
-		location: 'City, Country',
-		startDate: 'Jan 2023',
-		endDate: 'Apr 2023',
+		title: 'Frontend Development Intern',
+		company: 'TechNova Labs',
+		location: 'California , USA',
+		startDate: '2021',
+		endDate: '2022',
 		description: [
-			'Assisted in research focusing on advanced materials for mechanical applications',
-			'Conducted literature reviews and compiled research findings',
-			'Performed data analysis and visualization of experimental results',
+			'Supported the design and development of web apps using React.js and CSS frameworks',
+			'Learned to consume RESTful APIs and display dynamic content efficiently',
+			'Assisted in fixing bugs and improving user interfaces for client-facing projects',
+			'Contributed to team sprints and learned agile methodologies in a collaborative startup environment',
 		],
-		technologies: ['MATLAB', 'CAD', 'Data Analysis', 'Python'],
+		technologies: ['React', 'Node.js', 'Data Analysis', 'Github'],
 	},
 ];
 
@@ -102,29 +96,29 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'Smart Home Automation System',
+		title: 'CryptoTradeX — Blockchain Trading Platform',
 		description:
-			'Designed and implemented a smart home automation system using IoT technologies to control lighting, temperature, and security features.',
+			"A decentralized trading dashboard that integrates live Ethereum market data using Web3.js and Chainlink oracles.Implemented smart contracts for peer-to-peer token swaps.Built React-based frontend with wallet authentication and trading history visualization.",
 		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg',
-		tags: ['IoT', 'Arduino', 'C++', 'Mobile App'],
+		tags: ['Web3.js', 'JavaScript', 'Solidity', 'React'],
 		link: '#',
 		repo: '#',
 	},
 	{
-		title: 'Structural Analysis Software',
+		title: 'FitTrack : Cross-Platform Fitness App',
 		description:
-			'Developed software for structural analysis of beams and trusses using numerical methods and visualization techniques.',
+			'Developed a health-tracking mobile app using React Native and Firebase.Integrated real-time analytics and social features for fitness challenges.Supported push notifications and wearable device synchronization.',
 		image: 'https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg',
-		tags: ['MATLAB', 'Python', 'FEA', 'Structural Engineering'],
+		tags: ['React Native', 'Firebase', 'TypeScript'],
 		link: '#',
 		repo: '#',
 	},
 	{
-		title: 'Renewable Energy Monitoring',
+		title: 'ShopSwift : E-Commerce Web Platform',
 		description:
-			'Created a system to monitor and analyze performance of solar panels and wind turbines for optimal energy production.',
+			'Full-stack e-commerce solution with real-time order tracking, product management, and payment gateway integration. Integrated Stripe and PayPal APIs for secure transactions.',
 		image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg',
-		tags: ['Data Analysis', 'IoT', 'Renewable Energy', 'Visualization'],
+		tags: ['MongoDB', 'Express', 'React', 'Node.js'],
 		link: '#',
 		repo: '#',
 	},
@@ -144,32 +138,18 @@ export type Education = {
 export const education: Education[] = [
 	{
 		degree: 'Bachelor of Science',
-		field: 'Mechanical Engineering',
-		institution: 'University Name',
-		location: 'City, Country',
-		startDate: 'Sep 2020',
-		endDate: 'Present',
+		field: 'Computer Science',
+		institution: 'University of California',
+		location: 'San Diego, USA',
+		startDate: 'Sep 2017',
+		endDate: '2021',
 		gpa: '3.8/4.0',
 		achievements: [
 			'Dean\'s List (All Semesters)',
 			'Academic Excellence Scholarship',
 			'Senior Design Project Award',
 		],
-	},
-	{
-		degree: 'High School Diploma',
-		field: 'Science and Mathematics',
-		institution: 'High School Name',
-		location: 'City, Country',
-		startDate: 'Sep 2016',
-		endDate: 'Jun 2020',
-		gpa: '4.0/4.0',
-		achievements: [
-			'Valedictorian',
-			'National Mathematics Competition Finalist',
-			'Science Fair Gold Medal',
-		],
-	},
+	}
 ];
 
 export type Certificate = {
@@ -216,19 +196,19 @@ export type Skill = {
 
 export const skills: Skill[] = [
 	// Technical Skills
-	{ name: 'Mechanical Design', level: 9, category: 'technical' },
+	{ name: 'Mobile Development', level: 9, category: 'technical' },
 	{ name: 'Structural Analysis', level: 8, category: 'technical' },
-	{ name: 'Thermodynamics', level: 7, category: 'technical' },
-	{ name: 'Control Systems', level: 8, category: 'technical' },
-	{ name: 'Circuit Design', level: 6, category: 'technical' },
+	{ name: 'Blockchain & Web3', level: 7, category: 'technical' },
+	{ name: 'Databases', level: 8, category: 'technical' },
+	{ name: 'Web Development', level: 9, category: 'technical' },
 
 	// Software Skills
-	{ name: 'MATLAB', level: 9, category: 'software' },
-	{ name: 'AutoCAD', level: 8, category: 'software' },
-	{ name: 'SolidWorks', level: 9, category: 'software' },
+	{ name: 'Node.js Next.js, JavaScript, TypeScript', level: 9, category: 'software' },
+	{ name: 'Solidity, Web3.js', level: 8, category: 'software' },
+	{ name: 'Flutter, ReactNative, Kotlin', level: 9, category: 'software' },
 	{ name: 'Python', level: 7, category: 'software' },
 	{ name: 'C++', level: 6, category: 'software' },
-	{ name: 'ANSYS', level: 8, category: 'software' },
+	{ name: 'MongoDB, MySQL, Firebase', level: 8, category: 'software' },
 
 	// Soft Skills
 	{ name: 'Problem Solving', level: 9, category: 'soft' },
@@ -240,7 +220,7 @@ export const skills: Skill[] = [
 	// Languages
 	{ name: 'English', level: 10, category: 'language' },
 	{ name: 'Spanish', level: 6, category: 'language' },
-	{ name: 'French', level: 4, category: 'language' },
+	{ name: 'Chinese', level: 4, category: 'language' },
 ];
 
 export type BlogPost = {

@@ -72,7 +72,7 @@ export function HeroSection() {
 						variants={fadeIn('up', 0.5)}
 						className="mt-6 text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
 					>
-						A showcase of my projects, skills, and achievements in the field of software engineering.
+						App Developer, Blockchain Developer, Web Developer.
 					</motion.p>
 
 					<motion.div

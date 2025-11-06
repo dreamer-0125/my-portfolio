@@ -21,18 +21,8 @@ export default function AboutPage() {
 					<motion.div variants={fadeIn('right', 0.3)} className="space-y-6">
 						<h1 className="text-4xl font-bold">About Me</h1>
 						<p className="text-lg text-muted-foreground">
-							I am a passionate engineering student with a focus on innovation and problem-solving.
-							My academic journey has equipped me with strong technical skills and a deep understanding
-							of engineering principles.
+							Highly skilled and innovative Web, Mobile, and Blockchain Developer with over 6 years of professional experience in designing, developing, and deploying end-to-end digital solutions. Adept in full-stack development, mobile app engineering, decentralized application (DApp) creation, and Web3 integration. Experienced in architecting secure, scalable, and user-centric platforms that bridge modern web technologies with blockchain ecosystems. Passionate about leveraging cutting-edge tools and frameworks to build efficient, future-ready applications that solve real-world problems.
 						</p>
-						<div className="space-y-4">
-							<h2 className="text-2xl font-semibold">My Journey</h2>
-							<p className="text-muted-foreground">
-								Throughout my academic career, I've been involved in various projects that have
-								helped me develop practical skills and theoretical knowledge. I believe in
-								continuous learning and staying updated with the latest technological advancements.
-							</p>
-						</div>
 						<Button className="mt-6" asChild>
 							<a href="/cv.pdf" download>
 								Download CV <ArrowDownCircle className="ml-2 h-4 w-4" />
