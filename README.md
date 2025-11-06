@@ -1,13 +1,67 @@
+## My Portfolio
+
+This repository contains a personal portfolio site built with Next.js, TypeScript and Tailwind CSS. It's a small, focused project for showcasing projects, experience, and contact information.
+
+Key goals:
+
+
+## Tech stack
+
+
+
+## Quick start
+
+Prerequisites: Node 18+ and npm
+
+1. Clone the repo
+
+   git clone <this-repo-url>
+
+2. Install deps
+
+   npm install
+
+3. Run dev server
+
+   npm run dev
+
+Open http://localhost:3000
+
+Available npm scripts (from this project):
+
+
+
+## Project structure (top-level)
+
+Important folders and files:
+
+
+
+## Customization
+
+
+
+## Contributing
+
+This repo is primarily a personal project. If you'd like to suggest improvements or file an issue, please open an issue or a pull request.
+
+
+## License
+
+This project is provided under the MIT License. See `LICENSE` for details.
+
+
+If you'd like any changes to the README (more examples, deployment steps, or a short changelog), tell me what you'd like included and I will update it.
 <div align="center">
 
 # 🚀 Engineering Student Portfolio
 
 ### *Next-Generation Portfolio Template for Tomorrow's Engineers*
 
-[![GitHub stars](https://img.shields.io/github/stars/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github&color=yellow)](https://github.com/niladri-1/Engineering_Student_Portfolio/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github&color=blue)](https://github.com/niladri-1/Engineering_Student_Portfolio/network)
-[![GitHub issues](https://img.shields.io/github/issues/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github&color=red)](https://github.com/niladri-1/Engineering_Student_Portfolio/issues)
-[![License](https://img.shields.io/github/license/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=mit&color=green)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dreamer-0125/my-portfolio?style=for-the-badge&logo=github&color=yellow)](https://github.com/dreamer-0125/my_portfolio/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/dreamer-0125/my-portfolio?style=for-the-badge&logo=github&color=blue)](https://github.com/dreamer-0125/my_portfolio/network)
+[![GitHub issues](https://img.shields.io/github/issues/dreamer-0125/my-portfolio?style=for-the-badge&logo=github&color=red)](https://github.com/dreamer-0125/my_portfolio/issues)
+[![License](https://img.shields.io/github/license/dreamer-0125/my-portfolio?style=for-the-badge&logo=mit&color=green)](LICENSE)
 
 <br>
 
@@ -16,7 +70,7 @@
 <br>
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-ff69b4?style=for-the-badge)](https://your-portfolio-demo.vercel.app)
-[![Documentation](https://img.shields.io/badge/📚_Documentation-Read_Now-blue?style=for-the-badge)](https://github.com/niladri-1/Engineering_Student_Portfolio/wiki)
+[![Documentation](https://img.shields.io/badge/📚_Documentation-Read_Now-blue?style=for-the-badge)](https://github.com/dreamer-0125/my_portfolio/wiki)
 
 </div>
 
@@ -127,10 +181,10 @@ engineer_portfolio/
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/niladri-1/Engineering_Student_Portfolio.git
+git clone https://github.com/dreamer-0125/my-portfolio.git
 
 # 2️⃣ Navigate to project directory
-cd Engineering_Student_Portfolio
+cd my-portfolio
 
 # 3️⃣ Install dependencies
 npm install
@@ -199,10 +253,10 @@ npm run dev
 
 We welcome contributions from the engineering community!
 
-[![Contributors](https://img.shields.io/github/contributors/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github)](https://github.com/niladri-1/Engineering_Student_Portfolio/graphs/contributors)
-[![Pull Requests](https://img.shields.io/github/issues-pr/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github)](https://github.com/niladri-1/Engineering_Student_Portfolio/pulls)
+[![Contributors](https://img.shields.io/github/contributors/dreamer-0125/my-portfolio?style=for-the-badge&logo=github)](https://github.com/dreamer-0125/my-portfolio/graphs/contributors)
+[![Pull Requests](https://img.shields.io/github/issues-pr/dreamer-0125/my-portfolio?style=for-the-badge&logo=github)](https://github.com/dreamer-0125/my-portfolio/pulls)
 
-[📋 Contributing Guidelines](CONTRIBUTING.md) • [🐛 Report Bug](https://github.com/niladri-1/Engineering_Student_Portfolio/issues/new?assignees=&labels=bug&template=bug_report.md) • [💡 Request Feature](https://github.com/niladri-1/Engineering_Student_Portfolio/issues/new?assignees=&labels=enhancement&template=feature_request.md)
+[📋 Contributing Guidelines](CONTRIBUTING.md) • [🐛 Report Bug](https://github.com/dreamer-0125/my-portfolio/issues/new?assignees=&labels=bug&template=bug_report.md) • [💡 Request Feature](https://github.com/dreamer-0125/my-portfolio/issues/new?assignees=&labels=enhancement&template=feature_request.md)
 
 </div>
 
@@ -242,6 +296,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ⭐ **If this project helped you, please consider giving it a star!** ⭐
 
-[![Star this repo](https://img.shields.io/github/stars/niladri-1/Engineering_Student_Portfolio?style=social)](https://github.com/niladri-1/Engineering_Student_Portfolio)
+[![Star this repo](https://img.shields.io/github/stars/dreamer-0125/my-portfolio?style=social)](https://github.com/dreamer-0125/my-portfolio)
 
 </div>
