@@ -96,9 +96,9 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'CryptoTradeX — Blockchain Trading Platform',
+		title: 'Decentralized Voting System',
 		description:
-			"A decentralized trading dashboard that integrates live Ethereum market data using Web3.js and Chainlink oracles.Implemented smart contracts for peer-to-peer token swaps.Built React-based frontend with wallet authentication and trading history visualization.",
+			"The Decentralized Voting System using Ethereum Blockchain is a secure and transparent solution for conducting elections. Leveraging Ethereum's blockchain technology, this system ensures tamper-proof voting records, enabling users to cast their votes remotely while maintaining anonymity and preventing fraud.",
 		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg',
 		tags: ['Web3.js', 'JavaScript', 'Solidity', 'React'],
 		link: '#',
@@ -203,12 +203,12 @@ export const skills: Skill[] = [
 	{ name: 'Web Development', level: 9, category: 'technical' },
 
 	// Software Skills
-	{ name: 'Node.js Next.js, JavaScript, TypeScript', level: 9, category: 'software' },
-	{ name: 'Solidity, Web3.js', level: 8, category: 'software' },
-	{ name: 'Flutter, ReactNative, Kotlin', level: 9, category: 'software' },
+	{ name: 'Node.js  Next.js  React', level: 9, category: 'software' },
+	{ name: 'Solidity  Web3.js  Ethers.js', level: 8, category: 'software' },
+	{ name: 'Flutter  ReactNative  Kotlin', level: 9, category: 'software' },
 	{ name: 'Python', level: 7, category: 'software' },
-	{ name: 'C++', level: 6, category: 'software' },
-	{ name: 'MongoDB, MySQL, Firebase', level: 8, category: 'software' },
+	{ name: 'C++  JavaScript  TypeScript', level: 10, category: 'software' },
+	{ name: 'MongoDB  MySQL  Firebase', level: 8, category: 'software' },
 
 	// Soft Skills
 	{ name: 'Problem Solving', level: 9, category: 'soft' },
@@ -231,30 +231,3 @@ export type BlogPost = {
 	image: string;
 	slug: string;
 };
-
-export const blogPosts: BlogPost[] = [
-	{
-		title: 'Advances in Renewable Energy Technologies',
-		excerpt: 'Exploring the latest innovations in renewable energy and their impact on sustainable development.',
-		date: 'Mar 15, 2024',
-		author: 'Your Name',
-		image: 'https://images.pexels.com/photos/2800832/pexels-photo-2800832.jpeg',
-		slug: 'advances-in-renewable-energy',
-	},
-	{
-		title: 'The Future of Robotics in Manufacturing',
-		excerpt: 'How robotics and automation are revolutionizing the manufacturing industry and creating new opportunities.',
-		date: 'Feb 22, 2024',
-		author: 'Your Name',
-		image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg',
-		slug: 'future-of-robotics-manufacturing',
-	},
-	{
-		title: 'Sustainable Building Materials in Modern Construction',
-		excerpt: 'An analysis of eco-friendly building materials and their applications in contemporary architecture.',
-		date: 'Jan 10, 2024',
-		author: 'Your Name',
-		image: 'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg',
-		slug: 'sustainable-building-materials',
-	},
-];

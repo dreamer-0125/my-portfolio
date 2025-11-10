@@ -47,17 +47,7 @@ export default function AboutPage() {
 					animate="show"
 					className="mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
 				>
-					<motion.div variants={fadeIn('up', 0.1)}>
-						<Card className="h-full card-gradient">
-							<CardContent className="p-6">
-								<h3 className="text-xl font-semibold mb-4">Education</h3>
-								<p className="text-muted-foreground">
-									Currently pursuing a Bachelor's degree in Engineering with a focus on
-									practical applications and innovative solutions.
-								</p>
-							</CardContent>
-						</Card>
-					</motion.div>
+					
 
 					<motion.div variants={fadeIn('up', 0.2)}>
 						<Card className="h-full card-gradient">
@@ -76,8 +66,8 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Skills</h3>
 								<p className="text-muted-foreground">
-									Proficient in various engineering tools and technologies, with a strong
-									foundation in problem-solving and analytical thinking.
+									Proficient in Mobile App and Blockchain DApp development technologies, with a 
+									strong foundation in problem-solving and analytical thinking.
 								</p>
 							</CardContent>
 						</Card>
