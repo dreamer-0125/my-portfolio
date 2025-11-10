@@ -99,7 +99,7 @@ export const projects: Project[] = [
 		title: 'Decentralized Voting System',
 		description:
 			"The Decentralized Voting System using Ethereum Blockchain is a secure and transparent solution for conducting elections. Leveraging Ethereum's blockchain technology, this system ensures tamper-proof voting records, enabling users to cast their votes remotely while maintaining anonymity and preventing fraud.",
-		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg',
+		image: '',
 		tags: ['Web3.js', 'JavaScript', 'Solidity', 'React'],
 		link: '#',
 		repo: '#',
@@ -108,7 +108,7 @@ export const projects: Project[] = [
 		title: 'FitTrack : Cross-Platform Fitness App',
 		description:
 			'Developed a health-tracking mobile app using React Native and Firebase.Integrated real-time analytics and social features for fitness challenges.Supported push notifications and wearable device synchronization.',
-		image: 'https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg',
+		image: '',
 		tags: ['React Native', 'Firebase', 'TypeScript'],
 		link: '#',
 		repo: '#',
@@ -117,7 +117,7 @@ export const projects: Project[] = [
 		title: 'ShopSwift : E-Commerce Web Platform',
 		description:
 			'Full-stack e-commerce solution with real-time order tracking, product management, and payment gateway integration. Integrated Stripe and PayPal APIs for secure transactions.',
-		image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg',
+		image: '',
 		tags: ['MongoDB', 'Express', 'React', 'Node.js'],
 		link: '#',
 		repo: '#',
