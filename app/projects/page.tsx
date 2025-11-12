@@ -55,7 +55,7 @@ export default function ProjectsPage() {
 								<Card className="flex flex-col h-full card-gradient">
 									<div className="relative h-48 w-full">
 										<Image
-											src = {getImageSrc(index)}
+											src = {imgsrc0}
 											alt={project.title}
 											fill
 											className="object-cover rounded-t-lg"
