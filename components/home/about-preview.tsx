@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button';
 import { SectionHeader } from '@/components/ui/section-header';
 import { Card, CardContent } from '@/components/ui/card';
 import { fadeIn } from '@/lib/motion';
+import about from '../ui/about.png';
 
 export function AboutPreview() {
 	return (
@@ -28,7 +29,7 @@ export function AboutPreview() {
 						className="relative h-[400px] rounded-lg overflow-hidden"
 					>
 						<Image
-							src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg"
+							src={about}
 							alt="Engineer portrait"
 							fill
 							className="object-cover"

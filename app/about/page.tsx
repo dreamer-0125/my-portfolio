@@ -7,6 +7,7 @@ import { ArrowDownCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { fadeIn, staggerContainer } from '@/lib/motion';
+import aboutme from '../../components/ui/about.png';
 
 export default function AboutPage() {
 	return (
@@ -32,7 +33,7 @@ export default function AboutPage() {
 
 					<motion.div variants={fadeIn('left', 0.3)} className="relative h-[500px]">
 						<Image
-							src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg"
+							src={aboutme}
 							alt="Professional photo"
 							fill
 							className="object-cover rounded-lg"

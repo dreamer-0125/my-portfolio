@@ -10,21 +10,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { projects } from '@/lib/constants';
 import { staggerContainer, fadeInScale } from '@/lib/motion';
-import imgsrc1 from '../../components/ui/fittrack.png';
-import imgsrc0 from '../../components/ui/voting.png';
 
-const getImageSrc = (index: number) => {
-	switch (index) {
-		case 0:
-			return imgsrc0;
-		case 1:
-			return imgsrc1;
-		case 2:
-			return imgsrc0;
-		default:
-			break;
-	}
-}
 export default function ProjectsPage() {
 	return (
 		<div className="py-16 md:py-24">
@@ -55,7 +41,7 @@ export default function ProjectsPage() {
 								<Card className="flex flex-col h-full card-gradient">
 									<div className="relative h-48 w-full">
 										<Image
-											src = {imgsrc0}
+											src = {project.image}
 											alt={project.title}
 											fill
 											className="object-cover rounded-t-lg"
