@@ -88,21 +88,18 @@ export const experiences: Experience[] = [
 export type Project = {
 	title: string;
 	description: string;
-	image: object;
+	image: string;
 	tags: string[];
 	link?: string;
 	repo?: string;
 };
-import imgsrc2 from '../components/ui/fittrack.png';
-import imgsrc1 from '../components/ui/voting.png';
-import imgsrc3 from '../components/ui/shopify.jpg';
 
 export const projects: Project[] = [
 	{
 		title: 'Decentralized Voting System',
 		description:
 			"The Decentralized Voting System using Ethereum Blockchain is a secure and transparent solution for conducting elections. Leveraging Ethereum's blockchain technology, this system ensures tamper-proof voting records, enabling users to cast their votes remotely while maintaining anonymity and preventing fraud.",
-		image: imgsrc1,
+		image: '',
 		tags: ['Web3.js', 'JavaScript', 'Solidity', 'React'],
 		link: '#',
 		repo: '#',
@@ -111,7 +108,7 @@ export const projects: Project[] = [
 		title: 'FitTrack : Cross-Platform Fitness App',
 		description:
 			'Developed a health-tracking mobile app using React Native and Firebase.Integrated real-time analytics and social features for fitness challenges.Supported push notifications and wearable device synchronization.',
-		image: imgsrc2,
+		image: '',
 		tags: ['React Native', 'Firebase', 'TypeScript'],
 		link: '#',
 		repo: '#',
@@ -120,7 +117,7 @@ export const projects: Project[] = [
 		title: 'ShopSwift : E-Commerce Web Platform',
 		description:
 			'Full-stack e-commerce solution with real-time order tracking, product management, and payment gateway integration. Integrated Stripe and PayPal APIs for secure transactions.',
-		image: imgsrc3,
+		image: '',
 		tags: ['MongoDB', 'Express', 'React', 'Node.js'],
 		link: '#',
 		repo: '#',

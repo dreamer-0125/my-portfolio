@@ -41,7 +41,7 @@ export default function ProjectsPage() {
 								<Card className="flex flex-col h-full card-gradient">
 									<div className="relative h-48 w-full">
 										<Image
-											src = {project.image}
+											src= {index === 0 ? require('../../components/ui/fittrack.png') : index === 1 ? require('../../components/ui/voting.png') : require('../../components/ui/shopify.jpg')}
 											alt={project.title}
 											fill
 											className="object-cover rounded-t-lg"
