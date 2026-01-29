@@ -46,7 +46,7 @@ export function AboutPreview() {
 					>
 						<h3 className="text-2xl font-bold mb-4">Professional Engineer</h3>
 						<p className="text-muted-foreground mb-6">
-							I'm a dedicated engineering student with a passion for innovation and problem-solving.
+							I&apos;m a dedicated engineering student with a passion for innovation and problem-solving.
 							My academic journey has equipped me with strong technical skills and a deep understanding
 							of engineering principles that I apply to real-world challenges.
 						</p>

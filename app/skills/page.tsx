@@ -4,26 +4,21 @@ import { motion } from 'framer-motion';
 import { Code2, Cpu, Brain, Languages } from 'lucide-react';
 
 import { Card, CardContent } from '@/components/ui/card';
-import { skills } from '@/lib/constants';
+import { skills, type Skill } from '@/lib/constants';
 import { fadeIn, staggerContainer } from '@/lib/motion';
 
-export default function SkillsPage() {
-	const technicalSkills = skills.filter(skill => skill.category === 'technical');
-	const softwareSkills = skills.filter(skill => skill.category === 'software');
-	const softSkills = skills.filter(skill => skill.category === 'soft');
-	const languageSkills = skills.filter(skill => skill.category === 'language');
-
-	const SkillCategory = ({
-		title,
-		skills,
-		icon,
-		delay
-	}: {
-		title: string;
-		skills: typeof technicalSkills;
-		icon: React.ReactNode;
-		delay: number;
-	}) => (
+function SkillCategory({
+	title,
+	skills: categorySkills,
+	icon,
+	delay
+}: {
+	title: string;
+	skills: Skill[];
+	icon: React.ReactNode;
+	delay: number;
+}) {
+	return (
 		<motion.div variants={fadeIn('up', delay)}>
 			<Card className="card-gradient">
 				<CardContent className="p-6">
@@ -32,7 +27,7 @@ export default function SkillsPage() {
 						<h2 className="text-2xl font-semibold">{title}</h2>
 					</div>
 					<div className="space-y-4">
-						{skills.map((skill, index) => (
+						{categorySkills.map((skill, index) => (
 							<div key={index}>
 								<div className="flex justify-between mb-1">
 									<span>{skill.name}</span>
@@ -54,6 +49,13 @@ export default function SkillsPage() {
 			</Card>
 		</motion.div>
 	);
+}
+
+export default function SkillsPage() {
+	const technicalSkills = skills.filter(skill => skill.category === 'technical');
+	const softwareSkills = skills.filter(skill => skill.category === 'software');
+	const softSkills = skills.filter(skill => skill.category === 'soft');
+	const languageSkills = skills.filter(skill => skill.category === 'language');
 
 	return (
 		<div className="py-16 md:py-24">
