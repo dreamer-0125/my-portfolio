@@ -38,6 +38,7 @@ export const siteConfig = {
 		twitter: 'https://twitter.com/yourusername',
 		facebook: 'https://facebook.com/yourusername',
 		instagram: 'https://instagram.com/yourusername',
+		telegram: 'https://t.me/catchdream0',
 		whatsapp: 'https://wa.me/yourphonenumber',
 		email: 'mailto:youremail@example.com',
 		phone: 'tel:+1234567890',
