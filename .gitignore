@@ -12,6 +12,10 @@
 /.next/
 /out/
 
+/.talkcody
+/.talkcody/settings.json
+/.talkcody/settings.local.json
+
 # production
 /build
 
