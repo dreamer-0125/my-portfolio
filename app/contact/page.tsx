@@ -90,13 +90,13 @@ export default function ContactPage() {
 									<h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
 									<div className="space-y-4">
 										<Link
-											href="https://wa.me/12722284841"
+											href={siteConfig.links.phone}
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex items-center hover:text-primary transition-colors"
 										>
-											<WhatsAppIcon className="h-5 w-5 text-primary mr-3 shrink-0" />
-											<p className="text-muted-foreground">+1 272 228 4841 (WhatsApp)</p>
+											<Phone className="h-5 w-5 text-primary mr-3 shrink-0" />
+											<p className="text-muted-foreground">+1-251-288-0179</p>
 										</Link>
 										<Link
 											href={siteConfig.links.telegram}
@@ -107,13 +107,16 @@ export default function ContactPage() {
 											<TelegramIcon className="h-5 w-5 text-primary mr-3 shrink-0" />
 											<p className="text-muted-foreground">@catchdream0 (Telegram)</p>
 										</Link>
-										<div className="flex items-center">
-											<Mail className="h-5 w-5 text-primary mr-3" />
-											<p className="text-muted-foreground">jooooyous@gmail.com</p>
-										</div>
+										<Link
+											href={siteConfig.links.email}
+											className="flex items-center hover:text-primary transition-colors"
+										>
+											<Mail className="h-5 w-5 text-primary mr-3 shrink-0" />
+											<p className="text-muted-foreground">catchdream125@gmail.com</p>
+										</Link>
 										<div className="flex items-center">
 											<MapPin className="h-5 w-5 text-primary mr-3" />
-											<p className="text-muted-foreground">City, Country</p>
+											<p className="text-muted-foreground">El Cajon, San Diego, CA</p>
 										</div>
 									</div>
 								</CardContent>

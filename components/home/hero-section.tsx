@@ -65,14 +65,14 @@ export function HeroSection() {
 						variants={fadeIn('up', 0.3)}
 						className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight"
 					>
-						<span className="text-gradient">Adams Bond&apos;s</span> Portfolio
+						<span className="text-gradient">Andy Adams&apos;s</span> Portfolio
 					</motion.h1>
 
 					<motion.p
 						variants={fadeIn('up', 0.5)}
 						className="mt-6 text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
 					>
-						App Developer, Blockchain Developer, Web Developer.
+						Full Stack Engineer, ML Integration Specialist, Cloud Architect.
 					</motion.p>
 
 					<motion.div

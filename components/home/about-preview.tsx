@@ -44,36 +44,34 @@ export function AboutPreview() {
 						viewport={{ once: true }}
 						className="flex flex-col justify-center"
 					>
-						<h3 className="text-2xl font-bold mb-4">Professional Engineer</h3>
+						<h3 className="text-2xl font-bold mb-4">Full Stack Engineer</h3>
 						<p className="text-muted-foreground mb-6">
-							I&apos;m a dedicated engineering student with a passion for innovation and problem-solving.
-							My academic journey has equipped me with strong technical skills and a deep understanding
-							of engineering principles that I apply to real-world challenges.
+							Driven Full Stack engineer with 5 years of experience architecting and deploying end-to-end solutions that seamlessly integrate ML models into production-ready web applications. I thrive in fast-moving environments where adaptability and collaboration matter most, focusing on building scalable, high-impact solutions.
 						</p>
 
 						<div className="grid grid-cols-2 gap-4 mb-6">
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Education</h4>
-									<p className="text-sm text-muted-foreground">B.S. Computer Science</p>
+									<p className="text-sm text-muted-foreground">B.S. Mathematics-Computer Science</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Experience</h4>
-									<p className="text-sm text-muted-foreground">5+ Years</p>
+									<p className="text-sm text-muted-foreground">5 Years</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">Projects</h4>
-									<p className="text-sm text-muted-foreground">6+ Completed</p>
+									<h4 className="font-semibold">Specialization</h4>
+									<p className="text-sm text-muted-foreground">ML Integration & Cloud</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">Awards</h4>
-									<p className="text-sm text-muted-foreground">5 Recognitions</p>
+									<h4 className="font-semibold">Location</h4>
+									<p className="text-sm text-muted-foreground">San Diego, CA</p>
 								</CardContent>
 							</Card>
 						</div>

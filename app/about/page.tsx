@@ -22,7 +22,7 @@ export default function AboutPage() {
 					<motion.div variants={fadeIn('right', 0.3)} className="space-y-6">
 						<h1 className="text-4xl font-bold">About Me</h1>
 						<p className="text-lg text-muted-foreground">
-							Highly skilled and innovative Web, Mobile, and Blockchain Developer with over 6 years of professional experience in designing, developing, and deploying end-to-end digital solutions. Adept in full-stack development, mobile app engineering, decentralized application (DApp) creation, and Web3 integration. Experienced in architecting secure, scalable, and user-centric platforms that bridge modern web technologies with blockchain ecosystems. Passionate about leveraging cutting-edge tools and frameworks to build efficient, future-ready applications that solve real-world problems.
+							Driven Full Stack engineer with 5 years of experience architecting and deploying end-to-end solutions that seamlessly integrate ML models into production-ready web applications. My calm, organized nature and results-driven mindset allow me to approach challenges with clarity, logic and purpose. Having partnered closely with both startups and enterprise teams, I thrive in fast-moving environments where adaptability and collaboration matter most. I focus on building scalable, high-impact solutions that don&apos;t just work efficiently, but genuinely support growth and long-term success. My goal is to create products that feel intuitive, purposeful and human-centered.
 						</p>
 						<Button className="mt-6" asChild>
 							<a href="/cv.pdf" download>
@@ -55,8 +55,7 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Experience</h3>
 								<p className="text-muted-foreground">
-									Gained valuable experience through internships and projects, working
-									with cutting-edge technologies and methodologies.
+									5 years of professional experience across startups and enterprise teams, specializing in full-stack development, cloud infrastructure, and ML model integration.
 								</p>
 							</CardContent>
 						</Card>
@@ -67,8 +66,7 @@ export default function AboutPage() {
 							<CardContent className="p-6">
 								<h3 className="text-xl font-semibold mb-4">Skills</h3>
 								<p className="text-muted-foreground">
-									Proficient in Mobile App and Blockchain DApp development technologies, with a 
-									strong foundation in problem-solving and analytical thinking.
+									Expert in Python, JavaScript/TypeScript, Java, Golang, cloud platforms (AWS, Azure), microservices, data pipelines, and ML integration.
 								</p>
 							</CardContent>
 						</Card>
